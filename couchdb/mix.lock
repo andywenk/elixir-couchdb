@@ -1,0 +1,2 @@
+%{"hackney": {:package, "0.13.1"},
+  "idna": {:package, "1.0.1"}}
