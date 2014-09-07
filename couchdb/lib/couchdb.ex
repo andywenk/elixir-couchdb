@@ -1,0 +1,2 @@
+defmodule Couchdb do
+end
