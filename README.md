@@ -16,7 +16,7 @@ Until now, there is awesome [Alexander Shorin](https://github.com/kxepal) and me
 Version
 -------
 
-As of today, this is version 0.0.0 - because we did not write one line of code. We don't know when we will have a first version. This is a project done in our freetime. So please be patient.
+As of today, this is version 0.0.1. This is a project done in our freetime. So please be patient.
 
 Contributing
 ------------
