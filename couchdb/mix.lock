@@ -1,4 +1,5 @@
-%{"hackney": {:package, "0.13.1"},
+%{"ex_doc": {:git, "git://github.com/elixir-lang/ex_doc.git", "307f1920b156e4fcfd9ee72a1233d3e2892caed1", [tag: "v0.5.2"]},
+  "hackney": {:package, "0.13.1"},
   "idna": {:package, "1.0.1"},
   "jsex": {:package, "2.0.0"},
   "jsx": {:package, "2.1.1"}}

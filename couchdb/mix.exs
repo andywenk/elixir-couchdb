@@ -30,6 +30,8 @@ defmodule Couchdb.Mixfile do
     [
       {:hackney, "~> 0.13.1"},
       {:jsex, "~> 2.0.0"},
+      {:ex_doc, github: "elixir-lang/ex_doc", tag: "v0.5.2"}
+
     ]
   end
 
