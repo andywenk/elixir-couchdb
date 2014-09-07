@@ -28,7 +28,8 @@ defmodule Couchdb.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:hackney, "~> 0.13.1"}
+      {:hackney, "~> 0.13.1"},
+      {:jsex, "~> 2.0.0"},
     ]
   end
 
