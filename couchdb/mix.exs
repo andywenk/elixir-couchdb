@@ -5,6 +5,8 @@ defmodule Couchdb.Mixfile do
     [app: :couchdb,
      version: "0.0.1",
      elixir: "~> 0.15.1",
+     description: description,
+     package: package,
      deps: deps]
   end
 
@@ -28,5 +30,20 @@ defmodule Couchdb.Mixfile do
     [
       {:hackney, "~> 0.13.1"}
     ]
+  end
+
+  defp description do
+    """
+    The couchdb package is a client for Apache CouchDB (http://apache.couchdb.org)
+    """
+  end
+
+  defp package do
+    [# These are the default files included in the package
+     files: ["config", "lib", "mix.exs", "README*", "LICENSE*", ],
+     contributors: ["Andy Wenk", "Alexander Shorin"],
+     licenses: ["Apache 2.0"],
+     links: %{"GitHub" => "https://github.com/andywenk/elixir-couchdb",
+              "Docs" => "https://github.com/andywenk/elixir-couchdb"}]
   end
 end
